@@ -1,0 +1,1107 @@
+/*RESET*/
+*, *:before, *:after {margin: 0; padding: 0; outline: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+img{border: none; vertical-align: middle; max-width: 100% !important;}
+small{font-size: 0.75em; color: #555;}
+a{text-decoration: none; color:#8d8f94;}
+a img{border:none;}
+strong, b{font-weight: bold;}
+ul{list-style: none;}
+strike{color: #A83535;}
+
+body{ font: 400 1em 'Jost', Verdana, Geneva, sans-serif; color:#222222; background: #fff;}
+
+/*FONT SIZE*/
+.fontzero{font-size: 0em !important;}
+h1.titleh1{font: 900 2.3em 'Jost', Verdana, Geneva, sans-serif; color: #FFF; text-align: center; width: 100%; line-height: 30px;}
+
+p{font:0.9em 'Jost', Verdana, Geneva, sans-serif; color: #5b5b5f; line-height:22px; text-align:left;}
+p.tagline{text-align:left; font-size: 1em; color: #b5b5b5; width: 50%; float: left; margin-top: 5px;}
+p.txtcenter{text-align:center !important; font: 300 1.1em 'Jost', Verdana, Geneva, sans-serif; margin-bottom: 10px;}
+p.txtchamada{text-align:center !important; font: 500 1.6em 'Jost', Verdana, Geneva, sans-serif; color: #000; width: 60%; margin: 6% auto;}
+p.txtchamadaprod{text-align:center !important; font: 500 1.6em 'Jost', Verdana, Geneva, sans-serif; color: #FFF; width: 60%; margin: 3% auto;}
+span.txtgreen{color: #6EAF4B !important}
+
+/*MENSAGENS*/
+.alert-box {width: 100%; color:#555; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; font:300 0.9em 'Jost', Arial, Helvetica, sans-serif; padding:10px 10px 10px 30px; margin:15px 0 !important; float: left !important; display: block; text-align: left;}
+.alert-box span {font-weight:bold; text-transform:uppercase;;}
+.error {background:#ffecec url('../admin/imgs/error.png') no-repeat 10px 50%; border:1px solid #f5aca6;}
+.success {background:#e9ffd9 url('../admin/imgs/success.png') no-repeat 10px 50%; border:1px solid #a6ca8a;}
+.warning {background:#fff8c4 url('../admin/imgs/alert.png') no-repeat 10px 50%; border:1px solid #f2c779;}
+.notice {background:#e3f7fc url('../admin/imgs/notice.png') no-repeat 10px 50%; border:1px solid #8ed9f6; color: #0266C7;}
+
+/*HELPERS*/
+.radius{-moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius:15px;}
+.efeito{transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+
+/*TRADUÇÃO*/
+.VIpgJd-ZVi9od-ORHb-OEVmcd{display: none !important;visibility: none !important}
+.goog-te-gadget img{display:none !important;}
+body > .skiptranslate {display: none;}
+body {top: 0px !important;}
+.goog-te-banner-frame.skiptranslate {height: 0px !important;display: none !important;}
+#google_translate_element2 {display: none !important;}
+#goog-gt-tt {display: none !important;}
+.goog-te-banner-frame {display: none !important;}
+.goog-te-menu-value:hover {text-decoration: none !important;}
+#google_translate_element2 {display: none !important;}
+.google-translate-flags {display: inline;}
+.goog-tooltip { display: none !important;}
+.goog-tooltip:hover { display: none !important;}
+.goog-text-highlight { background-color: transparent !important; border: none !important; box-shadow: none !important;}
+.clearfix::after{content: " ";display: table;clear: both;}
+
+/*HEADER*/
+.container-header{width: 100%; float: left; height: 850px; background: url("../imgs/banner1.jpg") center center no-repeat; background-size: 110% 110%; background-position: center center; animation: shrink 12s;}
+@keyframes shrink { 0% { background-size: 100% 100%;} 100% { background-size: 110% 110%;}}
+.content-header{width: 65%; height: auto; overflow: hidden; margin: 0 auto; padding: 1.5% 0; }
+.content-header .seglinguas{width: 10%; height: auto; overflow: hidden; margin: 20px 0 0 40px;float: right;}
+.content-header .seglinguas ul{width: 100%; height: auto;}
+.content-header .seglinguas ul li{width: 22%; height: auto; float: left; display: inline-block; margin: 0 5%;}
+.content-header .seglinguas ul li .brasil{background: url("../imgs/svg/brazil.svg")no-repeat center top;width: 25px;height: 25px;float: left;margin:0 9px 0 0;}
+.content-header .seglinguas ul li .eua{background: url(../imgs/svg/eua.svg) no-repeat center top;width: 25px;height: 25px;float: left;margin:0 9px 0 0;}
+.content-header .seglinguas ul li .spain{background: url(../imgs/svg/spain.svg) no-repeat center top;width: 25px;height: 25px;float: left;margin:0 0 0 0;}
+.content-header .seglinguas ul li a{background-size: 25px !important}
+.content-header .seglinguas ul li a:hover{filter: grayscale(1);-moz-transition: all .3s ease-out;-webkit-transition: all .3s ease-out;transition: all .3s ease-out;}
+.content-header .seglinguas ul li .active{filter: grayscale(1);}
+
+.content-header span.chamada{ width: 55%; float: right; margin-top: 220px;}
+.content-header span.chamada p{font-size: 2.2em; color: #e1f3d8 !important; text-align: right !important; line-height: 50px; float: right; margin-bottom: 3%;}
+.content-header span.chamada a{float: right; color: #6EAF4B;; font-weight: 700; font-size: 1em; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+.content-header span.chamada a:hover{color: #FFF; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+
+.logo{ width: 15%; height: auto; float:left; text-align:left !important;}
+.logo-rs{ width: 140px; height: 78px; float:left; text-align:left !important; margin: 0; display: none;}
+
+/* HEADER MENU */
+.mobile_action{display: none;}
+.main_header_nav_responsivo{display: none;}
+.menu {	line-height: 1; margin: 0 auto 0 auto; width: auto; float: right;}
+.menu__list {position: relative; display: -webkit-flex; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; margin: 0; padding: 0; list-style: none;}
+.menu__item {display: block; margin: 0.7em;}
+.menu__link {font-size: 1em; font-weight: 600 !important; text-transform: none; display: block; padding: 1em; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-touch-callout: none; -khtml-user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+.menu__link:hover, .menu__link:focus {outline: none;}
+.menu--shylock .menu__link {position: relative;	margin: 0 1em; padding-right: 0; padding-left: 0; color: #FFF; -webkit-transition: color 0.4s; transition: color 0.4s; font-weight: normal;}
+.menu--shylock .menu__item--current .menu__link, .menu--shylock .menu__item--current .menu__link:hover, .menu--shylock .menu__item--current .menu__link:focus {color: #FFF;}
+.menu--shylock .menu__item--current .menu__link::after, .menu--shylock .menu__item--current .menu__link::before {-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}
+.menu--shylock .menu__item--current .menu__link::before {-webkit-transition-delay: 0s; transition-delay: 0s;}
+.menu--shylock .menu__link:hover, .menu--shylock .menu__link:focus {color: #FFF;}
+.menu--shylock .menu__link:hover::before, .menu--shylock .menu__link:focus::before {-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1); -webkit-transition-delay: 0s; transition-delay: 0s;}
+.menu--shylock .menu__link::before, .menu--shylock .menu__link::after {content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; -webkit-transform: scale3d(0, 1, 1);	transform: scale3d(0, 1, 1); -webkit-transform-origin: center left; transform-origin: center left; -webkit-transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1); transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);}
+.menu--shylock .menu__link::before {background: #FFF; -webkit-transition-delay: 0.4s; transition-delay: 0.4s;}
+.menu--shylock .menu__link::after {background: #FFF;}
+
+/* CANNABIS MEDICINAL HOME */
+.container-cannabis{width: 100%; float: left; height: auto; margin-top: -85px; }
+.content-cannabis{width: 65%; height: auto; margin: 0 auto;}
+
+.grid{position:relative;margin:0 0 5% 0;padding:0; width: 100%; float: left; list-style:none;text-align:center;}
+.grid figure{position:relative;float:left;overflow:hidden;margin:10px 2%;min-width:320px;width:29%; min-height: auto;background:#323C34;text-align:center;cursor:pointer}
+.grid figure img{position:relative;display:block;min-height:100%;max-width:100%;opacity:.8}
+.grid figure figcaption{padding:2em;color:#fff;text-transform:uppercase;font-size:1.25em;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+.grid figure figcaption::before,.grid figure figcaption::after{pointer-events:none}
+.grid figure figcaption,.grid figure figcaption > a{position:absolute;top:0;left:0;width:100%;height:100%}
+.grid figure figcaption > a{z-index:1000;text-indent:200%;white-space:nowrap;font-size:0;opacity:0}
+.grid figure h2{word-spacing:-.15em;font-weight:300; font-size: 1em;}
+.grid figure h2 span{font-weight:800}
+.grid figure h2,.grid figure p{margin:0}
+.grid figure p{letter-spacing:1px;font-size:68.5% ;text-align: center; color: #FFF;}
+
+figure.effect-bubba{background:#323C34}
+figure.effect-bubba img{opacity:1;-webkit-transition:opacity .35s;transition:opacity .35s}
+figure.effect-bubba:hover img{opacity:.4}
+figure.effect-bubba figcaption::before,figure.effect-bubba figcaption::after{position:absolute;top:30px;right:30px;bottom:30px;left:30px;content:'';opacity:0;-webkit-transition:opacity 0.35s,-webkit-transform .35s;transition:opacity 0.35s,transform .35s}
+figure.effect-bubba figcaption::before{border-top:1px solid #fff;border-bottom:1px solid #fff;-webkit-transform:scale(0,1);transform:scale(0,1)}
+figure.effect-bubba figcaption::after{border-right:1px solid #fff;border-left:1px solid #fff;-webkit-transform:scale(1,0);transform:scale(1,0)}
+figure.effect-bubba h2{padding-top:15%;-webkit-transition:-webkit-transform .35s;transition:transform .35s;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}
+figure.effect-bubba p{padding:20px 2.5em;opacity:0;-webkit-transition:opacity 0.35s,-webkit-transform .35s;transition:opacity 0.35s,transform .35s;-webkit-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}
+figure.effect-bubba:hover figcaption::before,figure.effect-bubba:hover figcaption::after{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
+figure.effect-bubba:hover h2,figure.effect-bubba:hover p{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+
+/* TRATAMENTOS HOME */
+.container-tratamentos{width: 100%; float: left; height: auto; padding-bottom: 15%;}
+.content-tratamentos{width: 65%; height: auto; margin: 0 auto; text-align: center;}
+.content-tratamentos .trat{width: 27%; float: left; display: inline-block; margin: 3%; min-height: 290px;}
+.content-tratamentos .trat img{width: 30%; margin-bottom: 4%;}
+.content-tratamentos .trat h2{color: #000; font-size: 1.4em;}
+.content-tratamentos .trat p{ text-align: center; color: #7c7c7c; margin: 5% 0; font-size: 1em;}
+.content-tratamentos .trat a{color: #6EAF4B;; font-weight: 700; font-size: 1em; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+.content-tratamentos .trat a:hover{color: #3B4636; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+.content-tratamentos a.btn{color: #6EAF4B; font-weight: 700; font-size: 1em; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease; width: 100%; float: left; text-align: center; padding: 15px 20px; border: 2px solid #6EAF4B; margin-top: 10px;}
+.content-tratamentos a.btn:hover{color: #3B4636; border: 2px solid #3B4636; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+
+/* PRODUTOS HOME */
+.container-produtos{width: 100%; float: left; height: auto; background: url("../imgs/bg-nossos-produtos.jpg") no-repeat center top; background-size: 100%;}
+.content-produtos{width: 65%; height: auto; margin: auto; text-align: center;}
+.content-produtos .content-diferencial{width: 100%; height: auto; margin: 0 auto; background: #0F7E2D; margin-top: -200px;}
+.content-produtos .content-diferencial h1{ margin-top: 50px;}
+.content-produtos .content-diferencial .ladoa{width: 50%; float: left; min-height: 410px; background: url("../imgs/bg-diferencial.jpeg") center top; background-size: 100%;}
+.content-produtos .content-diferencial .ladob{width: 50%; float: right; min-height: 410px; background: url("../imgs/bg-diferencial2.jpeg") center top; background-size: 100%; padding: 60px;}
+.content-produtos .content-diferencial .ladob h2{text-align: left; font-size: 1.8em; color: #FFF; font-weight: 800; margin-bottom: 3%; float: left}
+.content-produtos .content-diferencial .ladob p{text-align: left; font-size: 1.2em; color: #e1f3d8; font-weight: normal; line-height: 28px; margin-bottom: 6%; float: left}
+.content-produtos .content-diferencial .ladob a{text-align: left !important; float: left; font-size: 1em; color: #6d726a; font-weight: bold; background: #FFF; padding: 12px 25px; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+.content-produtos .content-diferencial .ladob a:hover{color: #FFF; background: #3B4636; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+
+/* EXIBEPRODUTO HOME */
+.content-exibeproduto{width: 100%; height: auto; margin: 80px auto; float: left}
+.content-exibeproduto .articleprod{width: 29%; height: auto; float: left; display: inline-block; margin: 2%;}
+.content-exibeproduto .articleprod img{width: 100%; height: auto; float: left; display: block; margin-bottom: 6%; border-radius: 10px 30px;}
+.content-exibeproduto .articleprod h2{text-align: center; font-size: 1.5em; color: #FFF; font-weight: 800; margin-bottom: 3%; float: left; width: 100%;}
+.content-exibeproduto .articleprod a{text-align: center!important; font-size: 1em; color: #e1f3d8; padding: 5px 25px; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+.content-exibeproduto .articleprod a:hover{color: #FFF; background: #7CA966; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+
+/* CANNABISHISTORIA HOME */
+.container-cannabishistoria{width: 100%; float: left; height: auto; background: url("../imgs/bg-sobre.jpg") no-repeat center top;}
+.content-cannabishistoria{width: 65%; height: auto; margin: auto; text-align: center;}
+.content-cannabishistoria .segtxt{width: 50%; float: left; margin: 100px 0; height: auto; overflow: hidden;}
+.content-cannabishistoria .segtxt h1{text-align: left; font-size: 1.8em; color: #000; font-weight: 800; margin-bottom: 2%; float: left; width: 100%;}
+.content-cannabishistoria .segtxt p.txtdestaquehist{font: 500 1.3em 'Jost', Verdana, Geneva, sans-serif; color: #6EAF4B; margin: 3% auto 5% auto;}
+.content-cannabishistoria .segtxt p{text-align: left; font-size: 1.2em; color: #7c7c7c; font-weight: normal; line-height: 28px; margin-bottom: 2%; float: left}
+.content-cannabishistoria .segtxt a{text-align: left !important; float: left; font-size: 1em; color: #FFF; font-weight: bold; background: #6EAF4B; padding: 12px 25px; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease; margin-top: 3%;}
+.content-cannabishistoria .segtxt a:hover{color: #FFF; background: #3B4636; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+
+/* PAGINAS */
+.header-pg{width: 100%; float: left; height: auto !important; background: #3B4636 url("../imgs/bg-header-pg.jpg") center center no-repeat; background-size: 100%; animation: none;}
+.content-pg{width: 65%; height: auto; overflow: hidden; margin: 0 auto; padding: 1.5% 0; }
+.content-pg span.chamadapg{ width: 100%; float: left; text-align: center; margin: 10% 0 12% 0; }
+.content-pg span.chamadapg p{font-size: 3em; color: #FFF !important; text-align: center !important; line-height: 28px; font-weight: 700; margin-bottom: 15px;}
+.content-pg span.chamadapg .navegacao{width: 100%; float: left;}
+.content-pg span.chamadapg .navegacao p{color: #e1f3d8; font-size: 1em; font-weight: 400;}
+.content-pg span.chamadapg .navegacao a{color: #e1f3d8; font-size: 1em; font-weight: 700;}
+.content-pg span.chamadapg .navegacao a:hover{ border-bottom: 2px solid #e1f3d8}
+
+.container-pagina{width: 100%; float: left; height: auto;}
+.content-pagina{width: 65%; height: auto; margin: 0 auto; padding: 4% 0;}
+.content-pagina p{text-align: justify; font-size: 1.2em; color: #7c7c7c; font-weight: normal; line-height: 28px; margin-bottom: 1%; float: left !important}
+
+/* PAGINAS - QUEM SOMOS */
+.header-pg-video{width: 100%; float: left; height: auto; position: relative; background-color: rgba(59,70,54,0.8) !important;}
+.header-pg-video > .bg-video {position: absolute; top: 0; left: 0; z-index: -1; width: 100%; height: 100%; overflow: hidden; background: #3B4636}
+.header-pg-video > .bg-video > video {width: 100%;}
+
+.content-pagina .segtxtpg{width: 57%; margin: 0; height: auto; overflow: hidden;}
+.content-pagina .segtxtpg h1{text-align: left; font-size: 1.8em; color: #000; font-weight: 800; margin-bottom: 2%; width: 100%;}
+.content-pagina .segtxtpg p.txtdestaquehist{font: 500 1.3em 'Jost', Verdana, Geneva, sans-serif; color: #6EAF4B; margin: 0 auto 5% auto;}
+.content-pagina .segtxtpg p{text-align: justify; font-size: 1.2em; color: #7c7c7c; font-weight: normal; line-height: 28px; margin-bottom: 2%;}
+.content-pagina .segimgpg{ width: 40%; float: right;}
+
+.segimgdesc{width: 100%; float: left;}
+
+.container-pagina-historia{width: 100%; height: auto; background: #F5F5F5; float: left}
+.container-pagina-historia .trajetoria{width: 50%; float: left; background: #F5F5F5 url("../imgs/bg-nossa-trajetoria.jpg") bottom center no-repeat; padding: 51px;}
+.container-pagina-historia .trajetoria h2{text-align:center !important; font: 700 2em 'Jost', Verdana, Geneva, sans-serif; color: #000; width: 60%; margin: 0 auto 5% auto;}
+.container-pagina-historia .trajetoria p{text-align: center; font-size: 1.1em; color: #7c7c7c; font-weight: normal; line-height: 28px; margin-bottom: 2%;}
+
+.container-pagina-historia .proximopassos{width: 50%; float: left; background: #6C9259 url("../imgs/bg-proximos-passos.jpg") center center repeat-y; padding: 50px 50px 125px 50px}
+.container-pagina-historia .proximopassos h2{text-align:center !important; font: 700 2em 'Jost', Verdana, Geneva, sans-serif; color: #FFF; width: 60%; margin: 0 auto 5% auto;}
+.container-pagina-historia .proximopassos p{text-align: center; font-size: 1.2em; color: #eff4ec; font-weight: normal; line-height: 28px; margin-bottom: 2%;}
+
+.container-pagina-linhatempo{width: 100%; float: left; background: #F6F6F6 url("../imgs/bg-linha-tempo.jpg") center center no-repeat}
+.content-pagina-linhatempo{width: 65%; height: auto; overflow: hidden; margin: 0 auto; padding: 4% 0;}
+.content-pagina-linhatempo h1{text-align:center !important; font: 700 2em 'Jost', Verdana, Geneva, sans-serif; color: #000; width: 60%; margin: 0 auto 5% auto;}
+.content-pagina-linhatempo p{text-align: center; font-size: 1.2em; color: #7c7c7c; font-weight: normal; line-height: 28px; margin-bottom: 2%;}
+
+.cbp_tmtimeline{margin:30px 0 0;padding:0;list-style:none;position:relative}
+.cbp_tmtimeline:before{content:'';position:absolute;top:0;bottom:0;width:10px;background:#6EAF4B;left:20%;margin-left:-10px}
+.cbp_tmtimeline > li{position:relative}
+.cbp_tmtimeline > li .cbp_tmtime{display:block;width:25%;padding-right:100px;position:absolute}
+.cbp_tmtimeline > li .cbp_tmtime span{display:block;text-align:right}
+.cbp_tmtimeline > li .cbp_tmtime span:first-child{font-size:.9em;color:#bdd0db}
+.cbp_tmtimeline > li .cbp_tmtime span:last-child{font-size:1.8em;color:#6EAF4B;font-weight:400}
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child{color:#6EAF4B}
+.cbp_tmtimeline > li .cbp_tmlabel{margin:0 0 15px 25%;background:#6EAF4B;color:#fff;padding:2em;font-size:1em;font-weight:300;line-height:1.4;position:relative;border-radius:5px}
+.cbp_tmlabel p{text-align:justify!important}
+p.txtcolor{color:#FFF!important}
+h2.txtcolor{color:#FFF!important}
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel{background:#eff4ec}
+.cbp_tmtimeline > li .cbp_tmlabel h2{margin-top:0;padding:0 0 10px;color:#6EAF4B}
+.cbp_tmtimeline > li .cbp_tmlabel:after{right:100%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-right-color:#6EAF4B;border-width:10px;top:10px}
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after{border-right-color:#eff4ec}
+.cbp_tmtimeline > li .cbp_tmicon{width:40px;height:40px;font-family:'Jost';speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;font-size:1em;line-height:40px;-webkit-font-smoothing:antialiased;position:absolute;color:#fff;background:#EFF4EC;border-radius:50%;box-shadow:0 0 0 8px #6EAF4B;text-align:justify;left:20%;top:0;margin:0 0 0 -25px}
+@media screen and (max-width: 65.375em) {.cbp_tmtimeline > li .cbp_tmtime span:last-child{font-size:1.5em}}
+
+.container-pagina-missao{width: 100%; float: left; background: url("../imgs/bg-missao-visao-valores.jpg") center center no-repeat}
+.content-pagina-missao{width: 65%; height: auto; overflow: hidden; margin: 0 auto; padding: 4% 0;}
+.content-pagina-missao .item{width: 100%; float: left; display: inline-block; margin: 2% 0;}
+.content-pagina-missao h2{text-align:left; font: 700 2em 'Jost', Verdana, Geneva, sans-serif; color: #6EAF4B; margin: 0 auto 1% auto;}
+.content-pagina-missao p{text-align: left; font-size: 1.2em; color: #fff; font-weight: normal; line-height: 36px;}
+
+.container-pagina-diferencial{width: 100%; float: left; background: #F5F5F5 url("../imgs/bg-nossa-trajetoria.jpg") center center no-repeat}
+.content-pagina-diferencial{width: 65%; height: auto; overflow: hidden; margin: 0 auto; padding: 4% 0;}
+.content-pagina-diferencial h1{text-align:center !important; font: 700 2em 'Jost', Verdana, Geneva, sans-serif; color: #000; width: 60%; margin: 0 auto 5% auto;}
+.content-pagina-diferencial p{text-align: center; font-size: 1.2em; color: #7c7c7c; font-weight: normal; line-height: 28px; margin-bottom: 2%;}
+
+@font-face{font-family:'icomoon';src:url(../fonts/icomoon_arrows/icomoon.eot);src:url(../fonts/icomoon_arrows/icomoon.eot?#iefix) format("embedded-opentype"),url(../fonts/icomoon_arrows/icomoon.woff) format("woff"),url(../fonts/icomoon_arrows/icomoon.ttf) format("truetype"),url(../fonts/icomoon_arrows/icomoon.svg#icomoon) format("svg");font-weight:400;font-style:normal}
+.cbp-ntaccordion{list-style:none;margin:0;padding:0}
+.cbp-ntsubaccordion{list-style:none}
+.cbp-ntaccordion .cbp-nttrigger{cursor:pointer}
+.cbp-ntaccordion h3{margin:0 0 .3em;padding:1em 0 .5em;border-bottom:1px solid #ddd;font-weight:300;font:700 1.8em Jost,Verdana,Geneva,sans-serif;color:#7c7c7c}
+.cbp-ntaccordion .cbp-ntcontent p{font:400 1.2em Jost,Verdana,Geneva,sans-serif;color:#7c7c7c;font-weight:300;line-height:1.5;padding:.5% 0;margin:0;text-align:justify}
+.cbp-ntaccordion .cbp-ntcontent p strong{padding:10% 0 0!important}
+.cbp-ntaccordion > li > .cbp-nttrigger:before,.cbp-ntsubaccordion > li > .cbp-nttrigger:before{font-family:'icomoon';speak:none;font-weight:400;font-variant:normal;text-transform:none;line-height:1;color:#6EAF4B;margin-right:.5em;-webkit-font-smoothing:antialiased}
+.cbp-ntaccordion > li > .cbp-nttrigger:before{font-size:75%;content:"\36"}
+.cbp-ntaccordion > li > .cbp-nttrigger:hover:before{content:"\35";color:#6EAF4B}
+.cbp-ntaccordion > li.cbp-ntopen > .cbp-nttrigger:before,.no-js .cbp-ntaccordion > li > .cbp-nttrigger:before{content:"\34";color:#6EAF4B}
+.cbp-ntsubaccordion > li > .cbp-nttrigger:before{content:"\32"}
+.cbp-ntsubaccordion > li > .cbp-nttrigger:hover:before{content:"\33";color:inherit}
+.cbp-ntsubaccordion > li.cbp-ntopen > .cbp-nttrigger:before,.no-js .cbp-ntsubaccordion > li > .cbp-nttrigger:before{content:"\31";color:inherit}
+.cbp-ntaccordion .cbp-ntcontent{height:0;overflow:hidden}
+.cbp-ntaccordion .cbp-ntopen > .cbp-ntcontent,.cbp-ntsubaccordion .cbp-ntopen > .cbp-ntcontent,.no-js .cbp-ntaccordion .cbp-ntcontent{height:auto}
+img.diferenciais{float: right; margin: 0 0 2% 2%; width: 25%;}
+
+/* PAGINAS - PRODUTOS/SERVIÇOS */
+.header-pgprod{width: 100%; float: left; height: auto !important; background: #3B4636 url("../imgs/banner-produtos.png") center center repeat-y; background-size: 100%; animation: none;}
+.produtobg{background: #F5F5F5 url("../imgs/bg-nossa-trajetoria.jpg") center center repeat-y}
+.content-pagina .prod1{width: 100%; float: left; margin: 4% 0;}
+.content-pagina .prod1 h2{margin-bottom: 1.5%; font: 700 1.5em 'Jost', Verdana, Geneva, sans-serif; color: #6EAF4B;}
+.content-pagina .prod1 p{margin-bottom: 2.5%;}
+.content-pagina .prod1 .txtprod{width: 60%; float: left; padding-right: 2%;}
+.content-pagina .prod1 .imgprod{width: 39%; float: right; }
+.content-pagina .prod1 .imgprod img{margin: 2% 0}
+.content-pagina p.txtespacobotton{margin-bottom: 6% !important}
+
+.content-pagina .prod2{width: 100%; float: left; margin: 4% 0;}
+.content-pagina .prod2 h2{margin-bottom: 1.5%; font: 700 1.5em 'Jost', Verdana, Geneva, sans-serif; color: #6EAF4B;}
+.content-pagina .prod2 p{margin-bottom: 2.5%;}
+.content-pagina .prod2 .txtprod{width: 60%; float: right; padding-left: 2%;}
+.content-pagina .prod2 .imgprod{width: 39%; float: left; }
+.content-pagina .prod2 .imgprod img{margin: 2% 0}
+
+/* PAGINAS - CANNABIS */
+.container-video{width: 100%; float: left; height: auto; position: relative; background-color: rgba(59,70,54,0.8) !important;}
+.container-video > .bg-video {position: absolute; top: 0; left: 0; z-index: -1; width: 100%; height: 100%; overflow: hidden; background: #3B4636}
+.container-video > .bg-video > video {width: 100%;}
+.content-video{width: 65%; height: auto; overflow: hidden; margin: 0 auto; padding: 7% 0;}
+.content-video p{font: 400 1.3em 'Jost', Verdana, Geneva, sans-serif; color:#fff; line-height: 36px; text-align: center;}
+
+.container-paginaprod{width: 100%; float: left; height: auto; background: #fff url("../imgs/bg-cannabis.jpg") no-repeat; background-size: 100%;}
+.content-paginaprod{width: 65%; height: auto; margin: 4% auto;}
+.content-paginaprod .segtxt{ width: 53%; float: right; margin-bottom: 5%;}
+.content-paginaprod .segtxt p{font: 400 1.2em 'Jost', Verdana, Geneva, sans-serif; color:#7c7c7c; line-height: 28px; text-align: justify; margin-bottom: 2%;}
+.content-paginaprod .segtxt h1{margin-bottom: 3%; font: 700 1.5em 'Jost', Verdana, Geneva, sans-serif; color: #6EAF4B;}
+
+.container-paginatrat{width: 100%; float: left; height: auto;}
+.content-paginatrat{width: 65%; height: auto; margin: 2% auto;}
+.content-paginatrat p{ text-align: center; color: #7c7c7c; margin: 5% 0; font-size: 1.2em; line-height: 28px;}
+.content-paginatrat h1{margin-bottom: 5%; font: 700 1.5em 'Jost', Verdana, Geneva, sans-serif; color: #6EAF4B; text-align: center;}
+.content-paginatrat .trat{width: 27%; float: left; display: inline-block; margin: 2% 3%; min-height: 400px; text-align: center;}
+.content-paginatrat .trat img{width: 30%; margin-bottom: 4%;}
+.content-paginatrat .trat h2{color: #000; font-size: 1.4em;}
+.content-paginatrat p.txtbottonjustify{text-align: justify; width: 100%; float: left; display: block;}
+
+/* PAGINAS - REGULAMENTAÇÃO E O MERCADO */
+.forcar{margin-top: 10% !important}
+.container-pagina.reg{background: #F5F5F5 !important;}
+
+.content-pagina .regmercado{width: 100%; float: left; margin: 6% 0 4% 0;}
+.content-pagina .regmercado h2{margin-bottom: 1.5%; font: 700 1.5em 'Jost', Verdana, Geneva, sans-serif; color: #6EAF4B;}
+.content-pagina .regmercado p{margin-bottom: 2.5%;}
+
+/* PAGINAS - NOTÍCIAS */
+.content-pagina .ulblog{width: 30%; float: left; margin: 1.5%; background: #F8F8F8; border-bottom-right-radius: 25px; border-bottom: 5px solid #6EAF4B; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease; min-height: 440px;}
+.content-pagina .ulblog:hover{border-bottom: 5px solid #3B4636; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+.content-pagina .ulblog img{border-top-left-radius: 25px;}
+.content-pagina .ulblog .segtxt{width: 100%; float: left; padding: 6%;}
+.content-pagina .ulblog .segtxt h2{font: 400 1em 'Jost', Verdana, Geneva, sans-serif; color: #7c7c7c; margin: 6px 0;}
+.content-pagina .ulblog .segtxt h2:hover{color: #374136;}
+.content-pagina .ulblog .segtxt time{font: 300 0.9em 'Jost', Verdana, Geneva, sans-serif; color: #7c7c7c; margin: 6px 0;}
+
+/* PAGINAS - VER NOTÍCIAS */
+.galeria{width: 100%;float: left; margin: 5% 0;}
+.galeria li{ width: 20%; float: left; display: inline-block; position: relative; overflow: hidden;}
+.galeria li img{ -moz-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.galeria li img:hover{ -moz-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1);}
+
+.content-pagina .headertitulo{width: 100%; float: left; background: #FFF url(../imgs/bg-title.png); padding: 30px 30px;}
+.content-pagina .headertitulo h1{ width: auto; font:1.3em 'Jost', Verdana, Geneva, sans-serif; font-weight: bold; color: #7c7c7c; text-align: left; margin: 0 !important; line-height: 28px; padding: 15px 0 15px 12px; border-left: 5px solid #6EAF4B;}
+.content-pagina .txtdescricao{width:100%; float: left; padding: 15px 0 0 0; text-align: justify}
+.content-pagina .txtdescricao p{text-align: justify; line-height: 30px !important; font: bold 1.1em 'Jost', Verdana, Geneva, sans-serif; font-weight: 400; padding: 0 !important;}
+.content-pagina .txtdescricao time{font-weight: bold; font-size: 1em; color: #666; margin: 1% 0; float: left; width: 100%;}
+
+/* PAGINAS - CONTATO */
+.content-pagina .ladoa {width:70%; float: left; height: auto; overflow: hidden; margin: 30px 0 60px 0;}
+.content-pagina .ladoa form{width: 100%; float: left; margin-top: 20px;}
+.content-pagina .ladoa form fieldset{width: 100%; float: left; height: auto; border: 0;}
+.content-pagina .ladoa form fieldset label{ width: 100%; float: left; height: auto;}
+.content-pagina .ladoa form fieldset label input{ width: 100%; float: left; height: auto; padding: 24px; background: #374136; border: none; font: 400 1.1em 'Jost', Verdana, Geneva, sans-serif; color: #fff;}
+.content-pagina .ladoa form fieldset label select{ width: 100%; float: left; height: auto; padding: 24px; background: #374136; border: none; font: 400 1.1em 'Jost', Verdana, Geneva, sans-serif; color: #fff;}
+.content-pagina .ladoa form fieldset label.lblsetor{width: 100%; margin-bottom: 2% !important;}
+.content-pagina .ladoa form fieldset label.lblnome{width: 100%; margin-bottom: 2%}
+.content-pagina .ladoa form fieldset label.lblemail{width: 49%;}
+.content-pagina .ladoa form fieldset label.lblfone{width: 49%; margin: 0 0 0 2%;}
+.content-pagina .ladoa form fieldset label textarea{ width: 100%; float: left; height: auto; padding: 24px; background: #374136; border: none; font: 400 1.1em 'Jost', Verdana, Geneva, sans-serif; color: #fff;}
+.content-pagina .ladoa form fieldset label.lblmsg{margin: 2% 0;}
+
+.btn-contato { width:auto; float: left; background: #3B4636; color: #FFF; text-indent: 0; padding: 15px 25px; text-transform: uppercase; font-weight: 700; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease; cursor: pointer; border: none; margin-top: 2%;}
+.btn-contato:hover{background:#6EAF4B; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+
+.content-pagina .ladob{ width: 25%; float: right; margin-top: 30px;}
+.content-pagina .ladob ul{width: 100%; float: left;}
+.content-pagina .ladob ul li{width: 100%; float: left; margin: 15px 0; padding: 0; display: block; padding-left: 45px; line-height: 35px; color: #7c7c7c; background: #B40993}
+.content-pagina .ladob ul li a{font-weight: 400; color: #7c7c7c; font-size: 1em;}
+.content-pagina .ladob ul li a:hover{color:#6EAF4B}
+.content-pagina .ladob ul li.whats{background: url("../imgs/svg/icon-whats.svg") no-repeat left; background-size: 35px;}
+.content-pagina .ladob ul li.emailcontact{background: url("../imgs/svg/icon-arroba.svg") no-repeat left; background-size: 35px;}
+.content-pagina .ladob ul li.endcontact{background: url("../imgs/svg/icon-place.svg") no-repeat left; background-size: 35px; height: 35px;}
+.content-pagina .ladob ul li:last-child{line-height: 20px; cursor: inherit;}
+.content-pagina iframe{margin: 50px 0;}
+iframe{margin-top: 50px;}
+
+/*FOOTER */
+.container-footer{width: 100%; float: left; height: auto; background: #F8F8F8;}
+.content-footer{width: 65%; height: auto; overflow: hidden; margin: 0 auto; padding: 50px 0 }
+.content-footer .copyright{ width:50%; float:left;}
+.content-footer .copyright p{ color:#6EAF4B;}
+.content-footer .ass{ width:50%; float:right;}
+.content-footer .ass p{ text-align:right; color:#6EAF4B}
+.content-footer .ass p a{color:#6EAF4B; font-weight:700; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+.content-footer .ass p a:hover{ color:#3B4636; transition:all 1s ease; -moz-transition:all 1s ease; -ms-transition:all 1s ease; -o-transition:all 1s ease; -webkit-transition:all 1s ease;}
+
+/*########################################################################### CSS RESPONSIVO ###########################################################################*/
+
+@media screen and (min-width: 299px) and (max-width: 479px){
+	
+	/*HEADER*/
+	.container-header{height: 500px;}
+	.content-header{width: 90%;}
+	.logo{ width: 35%; margin-top: 10px;}
+	.content-header .seglinguas{width: 33%; margin-top: 20px;}
+	.content-header span.chamada{ width: 80%; margin-top: 60px;}
+	.content-header span.chamada p{font-size: 1.8em; line-height: 40px;}
+	
+	.menu{display: none}
+	.mobile_action{display: block; width: 46px; height: 46px; margin: 10px 0 0 0px; float: right; cursor: pointer; background: #FFF url(../imgs/mobile.png) center center no-repeat; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;}
+	.mobile_action.active{ background-color: #FFF;}
+	.mobile_action:hover{ background-color: #6EAF4B}
+	
+	.main_header_nav_responsivo{position: fixed; display: block; left: -100%; top: 0; width: 76%; height: 100%; min-width: 200px; max-width: 360px; background: #3B4636; z-index: 999999; overflow: hidden; overflow-y: auto; font-family: 'Jost', sans-serif;}
+    .main_header_nav_search_responsivo{ float: left; width: 100%; background: #000; padding: 31px 15px;}
+    .main_header_nav_item_responsivo{ float: left; width: 100%; position: relative;}
+    .main_header_nav_item_responsivo > a{float: left; width: 100%; padding: 15px; text-transform: none; text-decoration: none; color: #fff; font-weight: 600; font-size: 0.875em}
+    .main_header_nav_item_responsivo:hover,.main_header_nav_item > a:hover{background: #6EAF4B; color: #000 !important}
+	
+	/* CANNABIS MEDICINAL HOME */
+	.content-cannabis{width: 90%;}
+	.grid{margin:0 0 15% 0;}
+	.grid figure{margin:4% 0; min-width: inherit; width:100%;}
+	p.txtchamada{width: 90%;}
+	
+	/* TRATAMENTOS HOME */
+	.content-tratamentos{width: 90%;}
+	.content-tratamentos .trat{width: 100%; margin: 6% 0; min-height: inherit;}
+	
+	/* PRODUTOS HOME */
+	.container-produtos{ background-color: #313B32;}
+	.content-produtos{width: 90%;}
+	.content-produtos .content-diferencial{background: #0F7E2D; margin-top: -20px;}
+	.content-produtos .content-diferencial .ladoa{width: 100%; float: left; min-height: 410px; background: url("../imgs/bg-diferencial.jpeg") center center;}
+	.content-produtos .content-diferencial .ladob{min-height: inherit; background: url("../imgs/bg-diferencial2.jpeg") center top; width: 100%;padding: 20px;}
+	.content-produtos .content-diferencial .ladob h2{margin-bottom: 6%;}
+	.content-produtos .content-diferencial .ladob p{margin-bottom: 8%;}
+	
+	/* EXIBEPRODUTO HOME */
+	p.txtchamadaprod{text-align:center !important; font: 500 1.4em 'Jost', Verdana, Geneva, sans-serif; color: #FFF; width: 90%; margin: 7% auto;}
+	.content-exibeproduto .articleprod{width: 100%; height: auto; float: left; display: block; margin: 5% 0;}
+	
+	/* CANNABISHISTORIA HOME */
+	.container-cannabishistoria{width: 100%; float: left; height: auto; background: #FFF;}
+	.content-cannabishistoria{width: 90%;}
+	.content-cannabishistoria .segtxt{width: 100%;}
+	.content-cannabishistoria .segtxt h1{text-align: center; margin-bottom: 4%;}
+	.content-cannabishistoria .segtxt p.txtdestaquehist{ text-align: center; margin: 7% auto 8% auto;}
+	.content-cannabishistoria .segtxt p{text-align: center; margin-bottom: 4%;}
+	.content-cannabishistoria .segtxt a{text-align: center!important; width: 100%;}
+	
+	/* PAGINAS */
+	.content-pg span.chamadapg{margin: 14% 0 5% 0; }
+	.content-pg span.chamadapg p{font-size: 2em; margin-bottom: 10px;}
+	.content-pagina{width: 90%;}
+	
+	/* PAGINAS - QUEM SOMOS */
+	.content-pagina .segtxtpg{width: 100%; margin: 5% 0;}
+	.content-pagina .segtxtpg p.txtdestaquehist{font: 500 1.1em 'Jost', Verdana, Geneva, sans-serif; margin: 0 auto 6% auto;}
+	.content-pagina .segtxtpg p{text-align: justify; font-size: 1.1em; margin-bottom: 3%;}
+	.content-pagina .segimgpg{ display: none;}
+	
+	.container-pagina-historia .trajetoria{width: 100%; padding: 50px 20px;}
+	.container-pagina-historia .trajetoria h2{font: 700 1.8em 'Jost', Verdana, Geneva, sans-serif; line-height: 28px;}
+	.container-pagina-historia .trajetoria p{font-size: 1.1em; margin-bottom: 3%;}
+	.container-pagina-historia .proximopassos{width: 100%; float: right; padding: 50px; background: #6C9259 url("../imgs/bg-proximos-passos.jpg") center center repeat-y;}
+	.container-pagina-historia .proximopassos h2{font: 700 1.8em 'Jost', Verdana, Geneva, sans-serif; line-height: 28px;}
+	.container-pagina-historia .proximopassos p{font-size: 1.1em; margin-bottom: 3%;}
+	
+	.content-pagina-linhatempo{width: 90%; padding: 15% 0;}
+	.content-pagina-linhatempo h1{font: 700 1.8em 'Jost', Verdana, Geneva, sans-serif; width: 100%; margin: 0 auto 5% auto; line-height: 28px;}
+	.content-pagina-linhatempo p{margin-bottom: 3%;}
+	
+	.container-pagina-missao{background: #171717 url("../imgs/bg-missao-visao-valores.jpg") center center repeat-y}
+	.content-pagina-missao{width: 90%; padding: 14% 0;}
+	.content-pagina-missao .item{margin: 3% 0;}
+	.content-pagina-missao h2{text-align:center; font: 700 1.8em 'Jost', Verdana, Geneva, sans-serif;}
+	.content-pagina-missao p{text-align: center; line-height: 28px; margin-bottom: 3%; font-size: 1.1em; }
+	
+	.content-pagina-diferencial{width: 90%; padding: 10% 0;}
+	.content-pagina-diferencial h1{font: 700 1.8em 'Jost', Verdana, Geneva, sans-serif; color: #000; width: 100%;}
+	.content-pagina-diferencial p{margin-bottom: 5%;}
+	.cbp-ntaccordion h3{font:700 1.4em Jost,Verdana,Geneva,sans-serif;}
+	.cbp-ntcontent p.txtespaco{margin-top: 5%;}
+	
+	img.diferenciais{margin: 0 0 3% 5%; width: 50%;}
+	
+	/* PAGINAS - PRODUTOS/SERVIÇOS */
+	.content-pg span.chamadapg p{font-size: 1.7em;}
+	
+	p.txtespacotop{margin-top: 14%; font-size: 1.1em;}
+	.content-pagina .prod1 .txtprod{width: 100%; padding-right: 0; margin: 10% 0;}
+	.content-pagina .prod1 .txtprod p{ font-size: 1.1em;}
+	.content-pagina .prod1 h2{text-align: center; font-size: 1.3em;}
+	.content-pagina .prod1 .imgprod{width: 100%; padding: 0;}
+	.content-pagina .prod1 .imgprod img{margin: 0 !important}
+	.content-pagina p.txtespacobotton{margin: 15% 0 !important}
+	
+	.content-pagina .prod2 .txtprod{width: 100%; padding-left: 0; margin: 10% 0;}
+	.content-pagina .prod2 .txtprod p{ font-size: 1.1em;}
+	.content-pagina .prod2 h2{text-align: center; font-size: 1.3em;}
+	.content-pagina .prod2 .imgprod{width: 100%; padding: 0;}
+	.content-pagina .prod2 .imgprod img{margin: 0 !important}
+	
+	/* PAGINAS - CANNABIS */
+	p.txtespacotop{margin-top: 12%;}
+	.container-video{ background: url("../imgs/bg-nossos-produtos.jpg") center center repeat-y;}
+	.container-video > .bg-video {display: none;}
+	.content-video{width: 85%;}
+	.content-video p{margin: 2% 0; font-size: 1.1em;}
+	
+	.container-paginaprod{background: #fff;}
+	.content-paginaprod{width: 90%; margin: 16% auto;}
+	.content-paginaprod .segtxt{ width: 100%; float: right; margin-bottom: 4%;}
+	.content-paginaprod .segtxt p{font: 400 1.1em 'Jost', Verdana, Geneva, sans-serif;}
+	.content-paginaprod .segtxt h1{ text-align: center; font-size: 1.3em;}
+	
+	.content-paginatrat{width: 90%; margin: 5% auto;}
+	.content-paginatrat p{font-size: 1.1em;}
+	.content-paginatrat .trat{ width: 100%; min-height: inherit; margin: 5% 0;}
+	.content-paginatrat .trat h2{color: #000; font-size: 1.3em; margin: 0;}
+	.content-paginatrat .trat p{margin-top: 2%;}
+	.content-paginatrat p.txtbottonjustify{text-align: justify;}
+	
+	/* PAGINAS - NOTÍCIAS */
+	.content-pagina .ulblog{ width: 100%; min-height: inherit; margin: 6% 0}
+	
+	/* PAGINAS - VER NOTÍCIAS */
+	.galeria li{ width: 100%;}
+	
+	/* PAGINA CONTATO */
+	.content-pagina .ladoa {width:100%; margin-bottom: 5px;}
+	.content-pagina .ladoa form fieldset label.lblsetor{width: 100%; margin-bottom: 3% !important;}
+	.content-pagina .ladoa form fieldset label.lblnome{width: 100%; margin-bottom: 3%}
+	.content-pagina .ladoa form fieldset label.lblemail{width: 100%; margin-bottom: 3%}
+	.content-pagina .ladoa form fieldset label.lblfone{width: 100%; margin:0 0 3% 0}
+	.content-pagina .ladob{ width: 100%; margin-bottom: 30px;}
+	
+	.btn-contato { width: 100%;}
+	
+	/*FOOTER */
+	.content-footer{width: 90%;}
+	.content-footer .copyright{ width:100%;}
+	.content-footer .copyright p{ text-align: center}
+	.content-footer .ass{ width:100%;}
+	.content-footer .ass p{ text-align:center;}
+}
+
+@media screen and (min-width: 480px) and (max-width: 719px){
+	
+	/*HEADER*/
+	.container-header{height: 500px;}
+	.content-header{width: 90%;}
+	.logo{ width: 40%; margin-top: 10px;}
+	.content-header .seglinguas{width: 30%; margin-top: 30px;}
+	.content-header span.chamada{ width: 80%; margin-top: 80px;}
+	.content-header span.chamada p{font-size: 1.8em;}
+	
+	.menu{display: none}
+	.mobile_action{display: block; width: 46px; height: 46px; margin: 20px 0 0 0; float: right; cursor: pointer; background: #FFF url(../imgs/mobile.png) center center no-repeat; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;}
+	.mobile_action.active{ background-color: #FFF;}
+	.mobile_action:hover{ background-color: #6EAF4B}
+	
+	.main_header_nav_responsivo{position: fixed; display: block; left: -100%; top: 0; width: 76%; height: 100%; min-width: 200px; max-width: 360px; background: #3B4636; z-index: 999999; overflow: hidden; overflow-y: auto; font-family: 'Jost', sans-serif;}
+    .main_header_nav_search_responsivo{ float: left; width: 100%; background: #000; padding: 31px 15px;}
+    .main_header_nav_item_responsivo{ float: left; width: 100%; position: relative;}
+    .main_header_nav_item_responsivo > a{float: left; width: 100%; padding: 15px; text-transform: none; text-decoration: none; color: #fff; font-weight: 600; font-size: 0.875em}
+    .main_header_nav_item_responsivo:hover,.main_header_nav_item > a:hover{background: #6EAF4B; color: #000 !important}
+	
+	/* CANNABIS MEDICINAL HOME */
+	.content-cannabis{width: 90%;}
+	.grid{margin:0 0 15% 0;}
+	.grid figure{margin:2% 0; min-width: inherit; width:100%;}
+	p.txtchamada{width: 90%;}
+	
+	/* TRATAMENTOS HOME */
+	.content-tratamentos{width: 90%;}
+	.content-tratamentos .trat{width: 100%; margin: 6% 0; min-height: inherit;}
+	
+	/* PRODUTOS HOME */
+	.container-produtos{ background-color: #313B32;}
+	.content-produtos{width: 90%;}
+	.content-produtos .content-diferencial{background: #0F7E2D; margin-top: -40px;}
+	.content-produtos .content-diferencial .ladoa{width: 100%; float: left; min-height: 410px; background: url("../imgs/bg-diferencial.jpeg") center center;}
+	.content-produtos .content-diferencial .ladob{min-height: inherit; background: url("../imgs/bg-diferencial2.jpeg") center top; width: 100%;}
+	
+	/* EXIBEPRODUTO HOME */
+	p.txtchamadaprod{text-align:center !important; font: 500 1.4em 'Jost', Verdana, Geneva, sans-serif; color: #FFF; width: 90%; margin: 7% auto;}
+	.content-exibeproduto .articleprod{width: 100%; height: auto; float: left; display: block; margin: 3% 0;}
+	
+	/* CANNABISHISTORIA HOME */
+	.content-cannabishistoria{width: 90%;}
+	.content-cannabishistoria .segtxt{width: 80%;}
+	
+	/* PAGINAS */
+	.content-pg span.chamadapg{margin: 14% 0 5% 0; }
+	.content-pagina{width: 90%; padding: 6% 0;}
+	
+	/* PAGINAS - QUEM SOMOS */
+	.content-pagina .segtxtpg{width: 100%; margin: 5% 0;}
+	.content-pagina .segimgpg{ display: none;}
+	
+	.container-pagina-historia .trajetoria{width: 100%; padding: 50px;}
+	.container-pagina-historia .trajetoria h2{font: 700 1.8em 'Jost', Verdana, Geneva, sans-serif;}
+	.container-pagina-historia .proximopassos{width: 100%; float: right; padding: 50px; background: #6C9259 url("../imgs/bg-proximos-passos.jpg") center center repeat-y;}
+	.container-pagina-historia .proximopassos h2{font: 700 1.8em 'Jost', Verdana, Geneva, sans-serif;}
+	
+	.content-pagina-linhatempo{width: 90%; padding: 10% 0;}
+	
+	.content-pagina-missao{width: 90%; padding: 10% 0;}
+	.content-pagina-missao .item{margin: 3% 0;}
+	
+	.content-pagina-diferencial{width: 90%; padding: 10% 0;}
+	.content-pagina-diferencial h1{font: 700 1.8em 'Jost', Verdana, Geneva, sans-serif; color: #000; width: 100%;}
+	.content-pagina-diferencial p{margin-bottom: 5%;}
+	.cbp-ntaccordion h3{font:700 1.4em Jost,Verdana,Geneva,sans-serif;}
+	.cbp-ntcontent p.txtespaco{margin-top: 7%;}
+	
+	img.diferenciais{margin: 0 0 3% 5%; width: 50%;}
+	
+	/* PAGINAS - PRODUTOS/SERVIÇOS */
+	p.txtespacotop{margin-top: 5%;}
+	.content-pagina .prod1 .txtprod{width: 100%; padding-right: 0;}
+	.content-pagina .prod1 h2{text-align: center;}
+	.content-pagina .prod1 .imgprod{width: 100%;}
+	.content-pagina .prod1 .imgprod img{margin: 2% 0}
+	.content-pagina p.txtespacobotton{margin-bottom: 11% !important}
+	
+	.content-pagina .prod2 .txtprod{width: 100%; padding-left: 0;}
+	.content-pagina .prod2 h2{text-align: center;}
+	.content-pagina .prod2 .imgprod{width: 100%;}
+	.content-pagina .prod2 .imgprod img{margin: 2% 0}
+	
+	/* PAGINAS - CANNABIS */
+	p.txtespacotop{margin-top: 12%;}
+	
+	.container-video{ background: url("../imgs/bg-nossos-produtos.jpg") center center repeat-y;}
+	.container-video > .bg-video {display: none;}
+	.content-video{width: 85%;}
+	.content-video p{margin: 2% 0;}
+	
+	.container-paginaprod{background: #fff;}
+	.content-paginaprod{width: 90%; margin: 8% auto;}
+	.content-paginaprod .segtxt{ width: 100%; float: right; margin-bottom: 4%;}
+	.content-paginaprod .segtxt h1{ text-align: center;}
+	
+	.content-paginatrat{width: 90%; margin: 5% auto; }
+	.content-paginatrat .trat{ width: 100%; min-height: inherit; margin: 5% 0;}
+	.content-paginatrat .trat h2{color: #000; font-size: 1.4em; margin: 0;}
+	.content-paginatrat .trat p{margin-top: 2%;}
+	.content-paginatrat p.txtbottonjustify{text-align: justify;}	
+	
+	/* PAGINAS - NOTÍCIAS */
+	.content-pagina .ulblog{ width: 100%; min-height: inherit; margin: 6% 0}
+	
+	/* PAGINAS - VER NOTÍCIAS */
+	.galeria li{ width: 100%;}
+	
+	/* PAGINA CONTATO */
+	.content-pagina .ladoa {width:100%; margin-bottom: 5px;}
+	.content-pagina .ladoa form fieldset label.lblemail{width: 100%; margin-bottom: 2%}
+	.content-pagina .ladoa form fieldset label.lblfone{width: 100%; margin: 0 0 0 0;}
+	.content-pagina .ladob{ width: 100%; margin-bottom: 30px;}
+	
+	/*FOOTER */
+	.content-footer{width: 90%;}
+	.content-footer .copyright{ width:100%;}
+	.content-footer .copyright p{ text-align: center}
+	.content-footer .ass{ width:100%;}
+	.content-footer .ass p{ text-align:center;}
+}
+
+@media screen and (min-width: 720px) and (max-width: 839px){
+	
+	/*HEADER*/
+	.container-header{height: 600px;}
+	.content-header{width: 90%;}
+	.logo{ width: 23%;}
+	.content-header .seglinguas{width: 18%;}
+	.content-header span.chamada{ width: 75%; margin-top: 150px;}
+	
+	.menu{display: none}
+	.mobile_action{display: block; width: 46px; height: 46px; margin: 10px 0 0 10px; float: right; cursor: pointer; background: #FFF url(../imgs/mobile.png) center center no-repeat; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;}
+	.mobile_action.active{ background-color: #FFF;}
+	.mobile_action:hover{ background-color: #6EAF4B}
+	
+	.main_header_nav_responsivo{position: fixed; display: block; left: -100%; top: 0; width: 76%; height: 100%; min-width: 200px; max-width: 360px; background: #3B4636; z-index: 999999; overflow: hidden; overflow-y: auto; font-family: 'Jost', sans-serif;}
+    .main_header_nav_search_responsivo{ float: left; width: 100%; background: #000; padding: 31px 15px;}
+    .main_header_nav_item_responsivo{ float: left; width: 100%; position: relative;}
+    .main_header_nav_item_responsivo > a{float: left; width: 100%; padding: 15px; text-transform: none; text-decoration: none; color: #fff; font-weight: 600; font-size: 0.875em}
+    .main_header_nav_item_responsivo:hover,.main_header_nav_item > a:hover{background: #6EAF4B; color: #000 !important}
+	
+	/* CANNABIS MEDICINAL HOME */
+	.content-cannabis{width: 90%;}
+	.grid figure{margin:10px 1%; min-width: inherit; width:31%;}
+	.grid figure figcaption{padding:1em; font-size:1.25em;}
+	figure.effect-bubba h2{padding-top:5%;}
+	figure.effect-bubba p{padding:20px 2.5em;}
+	p.txtchamada{width: 90%;}
+	
+	/* TRATAMENTOS HOME */
+	.content-tratamentos{width: 90%;}
+	.content-tratamentos .trat{width: 42%;}
+	
+	/* PRODUTOS HOME */
+	.container-produtos{ background-color: #313B32;}
+	.content-produtos{width: 90%;}
+	.content-produtos .content-diferencial{background: #0F7E2D; margin-top: -80px;}
+	.content-produtos .content-diferencial .ladoa{width: 100%; float: left; min-height: 410px; background: url("../imgs/bg-diferencial.jpeg") center center;}
+	.content-produtos .content-diferencial .ladob{min-height: inherit; background: url("../imgs/bg-diferencial2.jpeg") center top; width: 100%;}
+	
+	/* EXIBEPRODUTO HOME */
+	p.txtchamadaprod{text-align:center !important; font: 500 1.6em 'Jost', Verdana, Geneva, sans-serif; color: #FFF; width: 80%; margin: 3% auto;}
+	.content-exibeproduto .articleprod{width: 29%; height: auto; float: left; display: inline-block; margin: 2%;}
+	
+	/* CANNABISHISTORIA HOME */
+	.content-cannabishistoria{width: 90%;}
+	.content-cannabishistoria .segtxt{width: 70%;}
+	
+	/* PAGINAS */
+	.content-pagina{width: 90%; padding: 6% 0;}
+	
+	/* PAGINAS - QUEM SOMOS */
+	.content-pagina .segtxtpg{width: 100%;}
+	.content-pagina .segimgpg{ display: none;}
+	
+	.container-pagina-historia .trajetoria{width: 100%; padding: 50px;}
+	.container-pagina-historia .proximopassos{width: 100%; float: right;padding: 50px}
+	
+	.content-pagina-linhatempo{width: 90%;}
+	
+	.content-pagina-missao{width: 90%;}
+	.content-pagina-missao .item{margin: 3% 0;}
+	
+	.content-pagina-diferencial{width: 90%;}
+	.cbp-ntaccordion h3{font:700 1.5em Jost,Verdana,Geneva,sans-serif;}
+	img.diferenciais{margin: 0 0 3% 3%; width: 50%;}
+	
+	/* PAGINAS - PRODUTOS/SERVIÇOS */
+	.content-pagina .prod1 .txtprod{width: 100%; padding-right: 0;}
+	.content-pagina .prod1 .imgprod{width: 100%;}
+	.content-pagina .prod1 .imgprod img{margin: 2% 0}
+	.content-pagina p.txtespacobotton{margin-bottom: 10% !important}
+	
+	.content-pagina .prod2 .txtprod{width: 100%; padding-left: 0;}
+	.content-pagina .prod2 .imgprod{width: 100%;}
+	.content-pagina .prod2 .imgprod img{margin: 2% 0}
+	
+	/* PAGINAS - CANNABIS */
+	p.txtespacotop{margin-top: 12%;}
+	
+	.content-video{width: 90%;}
+	
+	.container-paginaprod{background: #fff;}
+	.content-paginaprod{width: 90%; margin: 8% auto;}
+	.content-paginaprod .segtxt{ width: 100%; float: right; margin-bottom: 4%;}
+	.content-paginaprod .segtxt h1{ text-align: center;}
+	
+	.content-paginatrat{width: 90%; margin: 2% auto;}
+	.content-paginatrat .trat{ width: 46%; min-height: 400px; margin: 2%;}
+	.content-paginatrat p.txtbottonjustify{text-align: justify;}
+	
+	/* PAGINAS - NOTÍCIAS */
+	.content-pagina .ulblog{ width: 46%; min-height: 390px; margin: 4% 2%}
+	
+	/* PAGINAS - VER NOTÍCIAS */
+	.galeria li{ width: 50%;}
+	
+	/* PAGINA CONTATO */
+	.content-pagina .ladoa {width:100%; margin-bottom: 5px;}
+	.content-pagina .ladob{ width: 100%; margin-bottom: 30px;}
+	
+	/*FOOTER */
+	.content-footer{width: 90%;}
+	.content-footer .copyright{ width:100%;}
+	.content-footer .copyright p{ text-align: center}
+	.content-footer .ass{ width:100%;}
+	.content-footer .ass p{ text-align:center;}
+}
+/* LINHA DO TEMPO ATÉ 752PX */
+@media screen and (max-width: 47.2em) {
+	.cbp_tmtimeline:before{display:none}
+	.cbp_tmtimeline > li .cbp_tmtime{width:100%;position:relative;padding:0 0 20px; font-weight: bold;}
+	.cbp_tmtimeline > li .cbp_tmtime span{text-align:left;}
+	.cbp_tmtimeline > li .cbp_tmlabel{margin:0 0 30px;padding:1em;font-weight:400;font-size:95%}
+	.cbp_tmtimeline > li .cbp_tmlabel:after{right:auto;left:20px;border-right-color:transparent;border-bottom-color:#6EAF4B;top:-20px}
+	.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after{border-right-color:transparent;border-bottom-color:#eff4ec}
+	.cbp_tmtimeline > li .cbp_tmicon{ display: none;}
+}
+
+@media screen and (min-width: 840px) and (max-width: 1023px){
+	
+	/*HEADER*/
+	.container-header{height: 600px;}
+	.content-header{width: 90%;}
+	.logo{ width: 23%;}
+	.content-header .seglinguas{width: 18%;}
+	.content-header span.chamada{ width: 75%; margin-top: 150px;}
+	
+	.menu{display: none}
+	.mobile_action{display: block; width: 46px; height: 46px; margin: 10px 0 0 10px; float: right; cursor: pointer; background: #FFF url(../imgs/mobile.png) center center no-repeat; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;}
+	.mobile_action.active{ background-color: #FFF;}
+	.mobile_action:hover{ background-color: #6EAF4B}
+	
+	.main_header_nav_responsivo{position: fixed; display: block; left: -100%; top: 0; width: 76%; height: 100%; min-width: 200px; max-width: 360px; background: #3B4636; z-index: 999999; overflow: hidden; overflow-y: auto; font-family: 'Jost', sans-serif;}
+    .main_header_nav_search_responsivo{ float: left; width: 100%; background: #000; padding: 31px 15px;}
+    .main_header_nav_item_responsivo{ float: left; width: 100%; position: relative;}
+    .main_header_nav_item_responsivo > a{float: left; width: 100%; padding: 15px; text-transform: none; text-decoration: none; color: #fff; font-weight: 600; font-size: 0.875em}
+    .main_header_nav_item_responsivo:hover,.main_header_nav_item > a:hover{background: #6EAF4B; color: #000 !important}
+	
+	/* CANNABIS MEDICINAL HOME */
+	.content-cannabis{width: 90%;}
+	.grid figure{margin:10px 1%; min-width: inherit; width:31%;}
+	.grid figure figcaption{padding:1em; font-size:1.25em;}
+	figure.effect-bubba h2{padding-top:5%;}
+	figure.effect-bubba p{padding:20px 2.5em;}
+	p.txtchamada{width: 90%;}
+	
+	/* TRATAMENTOS HOME */
+	.content-tratamentos{width: 90%;}
+	
+	/* PRODUTOS HOME */
+	.container-produtos{ background-color: #313B32;}
+	.content-produtos{width: 90%;}
+	.content-produtos .content-diferencial{background: #0F7E2D; margin-top: -80px;}
+	.content-produtos .content-diferencial .ladoa{min-height: 608px; background: url("../imgs/bg-diferencial.jpeg") top center;}
+	.content-produtos .content-diferencial .ladob{min-height: inherit; background: url("../imgs/bg-diferencial2.jpeg") center top;}
+	
+	/* EXIBEPRODUTO HOME */
+	p.txtchamadaprod{text-align:center !important; font: 500 1.6em 'Jost', Verdana, Geneva, sans-serif; color: #FFF; width: 80%; margin: 3% auto;}
+	.content-exibeproduto .articleprod{width: 29%; height: auto; float: left; display: inline-block; margin: 2%;}
+	
+	/* CANNABISHISTORIA HOME */
+	.content-cannabishistoria{width: 90%;}
+	.content-cannabishistoria .segtxt{width: 70%;}
+	
+	/* PAGINAS */
+	.content-pagina{width: 90%; padding: 6% 0;}
+	
+	/* PAGINAS - QUEM SOMOS */
+	.content-pagina .segtxtpg{width: 100%;}
+	.content-pagina .segimgpg{ display: none;}
+	
+	.container-pagina-historia .trajetoria{width: 100%; padding: 50px;}
+	.container-pagina-historia .proximopassos{width: 100%; float: right;padding: 50px}
+	
+	.content-pagina-linhatempo{width: 90%;}
+	
+	.content-pagina-missao{width: 90%;}
+	
+	.content-pagina-diferencial{width: 90%;}
+	
+	.cbp-ntaccordion h3{font:700 1.4em Jost,Verdana,Geneva,sans-serif;}
+	
+	/* PAGINAS - PRODUTOS/SERVIÇOS */
+	.content-pagina .prod1 .txtprod{width: 100%; padding-right: 0;}
+	.content-pagina .prod1 .imgprod{width: 100%;}
+	.content-pagina .prod1 .imgprod img{margin: 2% 0}
+	
+	.content-pagina .prod2 .txtprod{width: 100%; padding-left: 0;}
+	.content-pagina .prod2 .imgprod{width: 100%;}
+	.content-pagina .prod2 .imgprod img{margin: 2% 0}
+	
+	/* PAGINAS - CANNABIS */
+	.content-video{width: 90%;}
+	
+	.container-paginaprod{background: #fff;}
+	.content-paginaprod{width: 90%; margin: 8% auto;}
+	.content-paginaprod .segtxt{ width: 100%; float: right; margin-bottom: 4%;}
+	
+	.content-paginatrat{width: 90%; margin: 0 auto;}
+	.content-paginatrat .trat{min-height: 480px;}
+	.content-paginatrat p.txtbottonjustify{text-align: justify;}
+	
+	/* PAGINAS - NOTÍCIAS */
+	.content-pagina .ulblog{ width: 46%; min-height: 420px; margin: 2%}
+	
+	/* PAGINAS - VER NOTÍCIAS */
+	.galeria li{ width: 25%;}
+	
+	/* PAGINA CONTATO */
+	.content-pagina .ladoa {width:100%; margin-bottom: 5px;}
+	.content-pagina .ladob{ width: 100%; margin-bottom: 30px;}
+	
+	/*FOOTER */
+	.content-footer{width: 90%;}
+	
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+	/*HEADER*/
+	.container-header{height: 600px;}
+	.content-header{width: 90%;}
+	.content-header span.chamada{ width: 65%; margin-top: 150px;}
+	
+	.content-header .seglinguas{width: 13%;}
+	
+	.menu{display: none}
+	.mobile_action{display: block; width: 46px; height: 46px; margin: 10px 0 0 10px; float: right; cursor: pointer; background: #FFF url(../imgs/mobile.png) center center no-repeat; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;}
+	.mobile_action.active{ background-color: #FFF;}
+	.mobile_action:hover{ background-color: #6EAF4B}
+	
+	.main_header_nav_responsivo{position: fixed; display: block; left: -100%; top: 0; width: 76%; height: 100%; min-width: 200px; max-width: 360px; background: #3B4636; z-index: 999999; overflow: hidden; overflow-y: auto; font-family: 'Jost', sans-serif;}
+    .main_header_nav_search_responsivo{ float: left; width: 100%; background: #000; padding: 31px 15px;}
+    .main_header_nav_item_responsivo{ float: left; width: 100%; position: relative;}
+    .main_header_nav_item_responsivo > a{float: left; width: 100%; padding: 15px; text-transform: none; text-decoration: none; color: #fff; font-weight: 600; font-size: 0.875em}
+    .main_header_nav_item_responsivo:hover,.main_header_nav_item > a:hover{background: #6EAF4B; color: #000 !important}
+	
+	/* CANNABIS MEDICINAL HOME */
+	.content-cannabis{width: 90%;}
+	.grid figure{margin:10px 1%; min-width: inherit; width:31%;}
+	p.txtchamada{width: 90%;}
+	
+	/* TRATAMENTOS HOME */
+	.content-tratamentos{width: 90%;}
+	
+	/* PRODUTOS HOME */
+	.container-produtos{ background-color: #313B32;}
+	.content-produtos{width: 90%;}
+	.content-produtos .content-diferencial{background: #0F7E2D; margin-top: -80px;}
+	.content-produtos .content-diferencial .ladoa{min-height: 505px; background: url("../imgs/bg-diferencial.jpeg") top center;}
+	.content-produtos .content-diferencial .ladob{min-height: 415px; background: url("../imgs/bg-diferencial2.jpeg") center top;}
+	
+	/* EXIBEPRODUTO HOME */
+	.content-exibeproduto .articleprod{width: 29%; height: auto; float: left; display: inline-block; margin: 2%;}
+	
+	/* CANNABISHISTORIA HOME */
+	.content-cannabishistoria{width: 90%;}
+	
+	/* PAGINAS */
+	.content-pagina{width: 90%;}
+	
+	/* PAGINAS - QUEM SOMOS */
+	.container-pagina-historia .trajetoria{width: 100%; padding: 50px;}
+	.container-pagina-historia .proximopassos{width: 100%; float: right;padding: 50px}
+	
+	.content-pagina-linhatempo{width: 90%;}
+	
+	.content-pagina-missao{width: 90%;}
+	
+	.content-pagina-diferencial{width: 90%;}
+	
+	/* PAGINAS - CANNABIS */
+	.content-video{width: 90%;}
+	
+	.content-paginaprod{width: 90%;}
+	
+	.content-paginatrat{width: 90%; margin: 0 auto;}
+	.content-paginatrat .trat{min-height: 450px;}
+	.content-paginatrat p.txtbottonjustify{text-align: justify;}
+	
+	/* PAGINAS - NOTÍCIAS */
+	.content-pagina .ulblog{min-height: 380px;}
+	
+	/* PAGINAS - VER NOTÍCIAS */
+	.galeria li{ width: 25%;}
+	
+	/* PAGINA CONTATO */
+	.content-pagina .ladoa {width:100%; margin-bottom: 5px;}
+	.content-pagina .ladob{ width: 100%; margin-bottom: 30px;}
+	
+	/*FOOTER */
+	.content-footer{width: 90%;}
+}
+@media screen and (min-width: 1280px) and (max-width: 1359px){
+	
+	/*HEADER*/
+	.content-header{width: 80%;}
+	.content-header span.chamada{ width: 75%;}
+	
+	.menu{display: none}
+	.mobile_action{display: block; width: 46px; height: 46px; margin: 10px 0 0 10px; float: right; cursor: pointer; background: #FFF url(../imgs/mobile.png) center center no-repeat; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;}
+	.mobile_action.active{ background-color: #FFF;}
+	.mobile_action:hover{ background-color: #6EAF4B}
+	
+	.main_header_nav_responsivo{position: fixed; display: block; left: -100%; top: 0; width: 76%; height: 100%; min-width: 200px; max-width: 360px; background: #3B4636; z-index: 999999; overflow: hidden; overflow-y: auto; font-family: 'Jost', sans-serif;}
+    .main_header_nav_search_responsivo{ float: left; width: 100%; background: #000; padding: 31px 15px;}
+    .main_header_nav_item_responsivo{ float: left; width: 100%; position: relative;}
+    .main_header_nav_item_responsivo > a{float: left; width: 100%; padding: 15px; text-transform: none; text-decoration: none; color: #fff; font-weight: 600; font-size: 0.875em}
+    .main_header_nav_item_responsivo:hover,.main_header_nav_item > a:hover{background: #6EAF4B; color: #000 !important}
+	
+	/* CANNABIS MEDICINAL HOME */
+	.content-cannabis{width: 80%;}
+	.grid figure{margin:10px 1%; min-width: 300px; width:31%;}
+	p.txtchamada{width: 80%;}
+	
+	/* TRATAMENTOS HOME */
+	.content-tratamentos{width: 80%;}
+	
+	/* PRODUTOS HOME */
+	.content-produtos{width: 80%;}
+	.content-produtos .content-diferencial{background: #0F7E2D; margin-top: -150px;}
+	.content-produtos .content-diferencial .ladoa{min-height: 490px; background: url("../imgs/bg-diferencial.jpeg") top center;}
+	.content-produtos .content-diferencial .ladob{min-height: 415px; background: url("../imgs/bg-diferencial2.jpeg") center top;}
+	
+	/* EXIBEPRODUTO HOME */
+	.content-exibeproduto .articleprod{width: 29%; height: auto; float: left; display: inline-block; margin: 2%;}
+	
+	/* CANNABISHISTORIA HOME */
+	.content-cannabishistoria{width: 80%;}
+	
+	/* PAGINAS */
+	.content-pagina{width: 80%;}
+	
+	/* PAGINAS - QUEM SOMOS */
+	.container-pagina-historia .trajetoria{width: 100%; padding: 50px;}
+	.container-pagina-historia .proximopassos{width: 100%; float: right;padding: 50px}
+	
+	.content-pagina-linhatempo{width: 80%;}
+	
+	.content-pagina-missao{width: 80%;}
+	
+	.content-pagina-diferencial{width: 80%;}
+	
+	/* PAGINAS - CANNABIS */
+	.content-video{width: 80%;}
+	
+	.content-paginaprod{width: 80%;}
+	
+	.content-paginatrat{width: 80%; margin: 0 auto;}
+	.content-paginatrat .trat{min-height: 410px;}
+	.content-paginatrat p.txtbottonjustify{text-align: justify;}
+	
+	/* PAGINAS - NOTÍCIAS */
+	.content-pagina .ulblog{min-height: 400px;}
+	
+	/* PAGINAS - VER NOTÍCIAS */
+	.galeria li{ width: 25%;}
+	
+	/*FOOTER */
+	.content-footer{width: 80%;}	
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1599px){
+	
+	/*HEADER*/
+	.content-header{width: 80%;}
+	.content-header span.chamada{ width: 70%;}
+	
+	.menu{display: none}
+	.mobile_action{display: block; width: 46px; height: 46px; margin: 10px 0 0 10px; float: right; cursor: pointer; background: #FFF url(../imgs/mobile.png) center center no-repeat; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;}
+	.mobile_action.active{ background-color: #FFF;}
+	.mobile_action:hover{ background-color: #6EAF4B}
+	
+	.main_header_nav_responsivo{position: fixed; display: block; left: -100%; top: 0; width: 76%; height: 100%; min-width: 200px; max-width: 360px; background: #3B4636; z-index: 999999; overflow: hidden; overflow-y: auto; font-family: 'Jost', sans-serif;}
+    .main_header_nav_search_responsivo{ float: left; width: 100%; background: #000; padding: 31px 15px;}
+    .main_header_nav_item_responsivo{ float: left; width: 100%; position: relative;}
+    .main_header_nav_item_responsivo > a{float: left; width: 100%; padding: 15px; text-transform: none; text-decoration: none; color: #fff; font-weight: 600; font-size: 0.875em}
+    .main_header_nav_item_responsivo:hover,.main_header_nav_item > a:hover{background: #6EAF4B; color: #000 !important}
+	
+	/* CANNABIS MEDICINAL HOME */
+	.content-cannabis{width: 80%;}
+	.grid figure{margin:10px 1%;}
+	p.txtchamada{width: 80%;}
+	
+	/* TRATAMENTOS HOME */
+	.content-tratamentos{width: 80%;}
+	
+	/* PRODUTOS HOME */
+	.content-produtos{width: 80%;}
+	.content-produtos .content-diferencial{background: #0F7E2D; margin-top: -150px;}
+	.content-produtos .content-diferencial .ladoa{min-height: 415px; background: url("../imgs/bg-diferencial.jpeg") top center;}
+	.content-produtos .content-diferencial .ladob{min-height: 415px; background: url("../imgs/bg-diferencial2.jpeg") center top;}
+	
+	/* EXIBEPRODUTO HOME */
+	.content-exibeproduto .articleprod{width: 29%; height: auto; float: left; display: inline-block; margin: 2%;}
+	
+	/* CANNABISHISTORIA HOME */
+	.content-cannabishistoria{width: 80%;}
+	
+	/* PAGINAS */
+	.content-pagina{width: 80%;}
+	
+	/* PAGINAS - QUEM SOMOS */
+	.container-pagina-historia .proximopassos{padding: 50px 50px 145px 50px}
+	
+	.content-pagina-linhatempo{width: 80%;}
+	
+	.content-pagina-missao{width: 80%;}
+	
+	.content-pagina-diferencial{width: 80%;}
+	
+	/* PAGINAS - CANNABIS */
+	.content-video{width: 80%;}
+	
+	.content-paginaprod{width: 80%;}
+	
+	.content-paginatrat{width: 80%;}
+	.content-paginatrat .trat{min-height: 420px;}
+	.content-paginatrat p.txtbottonjustify{text-align: justify;}
+	
+	/* PAGINAS - NOTÍCIAS */
+	.content-pagina .ulblog{min-height: 400px;}
+	
+	/*FOOTER */
+	.content-footer{width: 80%;}
+	
+}
+@media screen and (min-width: 1600px) and (max-width: 1899px){
+
+	/*HEADER*/
+	.content-header{width: 75%;}
+	.content-header span.chamada{ width: 65%;}
+	
+	/* CANNABIS MEDICINAL HOME */
+	.content-cannabis{width: 75%;}
+	
+	/* TRATAMENTOS HOME */
+	.content-tratamentos{width: 75%;}
+	
+	/* PRODUTOS HOME */
+	.content-produtos{width: 75%;}
+	.content-produtos .content-diferencial .ladoa{min-height: 430px; background: url("../imgs/bg-diferencial.jpeg") center top no-repeat;}
+	.content-produtos .content-diferencial .ladob{width: 50%; min-height: 390px; background: url("../imgs/bg-diferencial2.jpeg") center top no-repeat;}
+	
+	/* EXIBEPRODUTO HOME */
+	.content-exibeproduto .articleprod{width: 29%; height: auto; float: left; display: inline-block; margin: 2%;}
+	
+	/* CANNABISHISTORIA HOME */
+	.content-cannabishistoria{width: 75%;}
+	
+	/* PAGINAS */
+	.content-pagina{width: 75%;}
+	
+	/* PAGINAS - QUEM SOMOS */
+	.container-pagina-historia .proximopassos{padding: 50px 50px 90px 50px}
+	
+	.content-pagina-linhatempo{width: 75%;}
+	
+	.content-pagina-missao{width: 75%;}
+	
+	.content-pagina-diferencial{width: 75%;}
+	
+	/* PAGINAS - CANNABIS */
+	.content-video{width: 75%;}
+	
+	.content-paginaprod{width: 75%;}
+	
+	.content-paginatrat{width: 75%;}
+	.content-paginatrat .trat{min-height: 390px;}
+	.content-paginatrat p.txtbottonjustify{text-align: justify;}
+	
+	/*FOOTER */
+	.content-footer{width: 75%;}
+	
+}
