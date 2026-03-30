@@ -1,0 +1,205 @@
+/* ================ RESETS ================ */
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, p, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0;}
+
+body{background:#f5f5f5 url(../imgs/bg_painel.png) top repeat-x;}
+
+#box{ width:940px; margin:0 auto; height:auto;}
+img a{border:0;}
+a img{border:0;}
+
+.loadaction{width:100%; height:100%; position:fixed; background:rgba(0,0,0,0.8); left:0px; top:0px; z-index:999; font:16px 'Cuprum', sans-serif;}
+.loadaction .boxload{text-align:center; padding:10px; background:#FFF; width:450px; height:40px; border:5px solid #069;}
+.loadaction .boxload{-webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
+.loadaction .boxload{left:50%; top:50%; position:absolute; margin-left:-185px; margin-top:-35px;}
+.loadaction .boxload p{color:#003E5B; margin:5px 0 0 0;}
+/* ================ MSG PUBLICAS ================ */
+.ms{padding:10px 10px 10px 30px; display:block; font:bold 14px 'Cuprum', Arial, Helvetica, sans-serif; width:671px; margin:15px 0;}
+.msassociado{padding:10px 10px 10px 30px; font:bold 14px 'Cuprum', Arial, Helvetica, sans-serif; width:671px; margin:15px 0; float: left;}
+.mshome{padding:10px 10px 10px 30px; display:block; font:bold 14px 'Cuprum', Arial, Helvetica, sans-serif; width:671px; margin:5px 0; float: left;}
+
+.no{background:#FFCACA url(../imgs/no.png) 7px no-repeat; color:#900;}
+.ok{background:#A6FFBC url(../imgs/ok.png) 7px no-repeat; color:#090;}
+.al{background:#FFFFBF url(../imgs/alert.png) 7px no-repeat; color:#F60;}
+.in{background:#B3E7FF url(../imgs/info.png) 7px no-repeat; color:#069;}
+
+/* ================ CLASSES PUBLICAS ================ */
+/*.ok{ width:640px; padding:5px; margin:5px auto; background: #00B900; border:2px solid #030; font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#FFF; text-align:center; font-weight:bold;}*/
+/*.no{ width:645px; padding:5px; margin:5px auto; background: #FFDFDF; border:2px solid #F00; font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #900; text-align:center; font-weight:bold;}*/
+.no_img{ width:640px; padding:5px; margin:5px 0 0 0; background:#FFDFDF; border:2px solid #F00; font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333; text-align:center;}
+.ok_img{ width:640px; padding:5px; margin:5px 0 0 0; background:#00B900; border:2px solid #030; font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#FFF; text-align:center; font-weight:bold;}
+label.error { font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; float: none; color: red; margin: 3px 0; vertical-align: top;}
+
+/* ================ PAINEL DE LOGIN ================ */ 
+.alert{	padding:10px; background:#F2FAEE; border:2px solid #E1EBE0; border-left:none; border-right:none;  margin:15px 0; font: 12px 'Cuprum', Arial, Helvetica, sans-serif; color: #333; line-height:18px;}
+#painel_de_login{ width:310px; padding:5px; margin:25px auto 0 auto;} 
+#painel_de_login fieldset{ border:0;} 
+#painel_de_login h2{ display:block; font:16px  'Cuprum', Arial, Helvetica, sans-serif; font-weight:bold; color:#618bbe; margin:10px 0 7px 0; text-transform:uppercase;}
+#painel_de_login span{ display:block; font:14px Georgia, "Times New Roman", Times, serif; color:#333; font-weight:bold; margin:5px 0;}
+#painel_de_login input{width:298px; background:#f4f4f4; border:1px #D2D2D2 solid; display:block; padding:8px 5px;}
+#painel_de_login .login_btn{ width:200px; display:block; margin:20px 0 0 55px; padding: 10px; background: #618bbe; border: 1px #4b6c93 solid; color: #fff; font-size: 1em; text-decoration: none; -webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; float:left;}
+#painel_de_login .login_btn:hover{ background:#6e9ed8; border-color: #5c84b5; cursor:pointer;}
+
+/* ================ HEADER ================ */ 
+#header{ height:120px; margin-bottom:15px; border-color: #EAB252;}
+#header_logo{ margin:7px 0 0 5px; float:left;}
+
+/* ================ MENU ================ */ 
+#menu{ width:242px; float:left; padding:5px;}
+#menu h1 a{ width:220px; float:left; padding:10px; font:17px Cuprum, Helvetica, sans-serif; font-weight:bold; background:#333333; color:#FFF; margin-bottom: 5px; text-decoration: none;}
+#menu h1 a:hover{color: #EAB252}
+#menu h1 a:active{background: #EAB252; color: #FFF}
+#menu h1.associado a{ color:#333333; background: #F4B300;}
+#menu h1.associado a:hover{background: #C48D00}
+#menu ul{ margin:0 0 8px 0; padding:0; list-style:none; float:left;}
+#menu ul li{ margin:0; float:left; font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; background:#3e3e3e; color:#FFF; padding:5px 0; display: none;}
+#menu ul li a{ width:230px; padding:2px 5px; text-decoration:none; color:#FFF; float:left; font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#menu ul li a:before{content:'» ';}
+#menu ul li a:hover{ color:#CCC;}
+#menu ul li:last-child{margin-bottom: 8px;}
+
+
+/* ================ PAGINA HOME ================ */ 
+.user_home{width:689px; font:bold 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-variant:small-caps; background:#B3E7FF; padding:10px 10px 10px 10px; border:1px dashed #66cdff; display:block; color: #333; float:left; margin-bottom:10px;}
+.user_home p{ float:left; width:370px; color:#333;}
+.user_home img{ float:left; padding:5px; border:1px solid #333; background: #FFF; margin:3px 10px 0 0 }
+.user_home strong{ float:left;}
+
+#conteudo .tbestatisticas{border:1px dashed #dddddd; border-bottom:0; border-right:0; font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; margin:20px 0 0 0;}
+#conteudo .tbestatisticas tr td{padding:5px;border:1px dashed #dddddd; border-top:0; border-left:0;}
+#conteudo .tbestatisticas tr:hover td{background:#DFF4FF;}
+#conteudo .tbestatisticas tr td a{font:12px Arial, Helvetica, sans-serif; color:#069; text-decoration:none;}
+#conteudo .tbestatisticas tr td a:hover{text-decoration:underline;}
+#conteudo .tbestatisticas .ses td{background:#f4f4f4; font-weight:bold;}
+#conteudo .tbestatisticas .ses:hover td{background:#e0e0e0;}
+#conteudo .tbestatisticas tr .nb{border-right:0;}
+
+#conteudo .boxaside{width: 710px; background: #C8B6B6; margin-bottom: 20px; float:left;}
+#conteudo .boxaside ul{float: left; width: 710px; font-size: 12px; background: #fff;}
+#conteudo .boxaside ul li{float:left; padding:5px; width:213px; list-style:none; display:inline; background:#F4F4F4; margin-right:20px}
+#conteudo .boxaside ul li p{color:#333;}
+#conteudo .boxaside ul li:last-child{margin: 0; width:214px;}
+#conteudo .boxaside ul li strong{font-size: 16px;}
+#conteudo .boxaside ul li span{background: #09f; display: block; padding: 10px 0; margin: 5px 0;}
+#conteudo .boxsubtitle{font-size: 16px; color: #444; font-weight: 400; margin-bottom: 10px;}
+#conteudo .boxaside:last-child{margin: 0;}
+
+/* ================ CONTEUDO ================ */ 
+#content{width:980px; float:left;}
+
+#conteudo{ width:711px; padding:5px; margin:0 0 0 5px; background: #FFF; float:right; border:1px solid #dddddd; height:auto;}
+#conteudo .caminho{ font:14px 'Cuprum', Arial, Helvetica, sans-serif; margin-left:5px;}
+#conteudo h1{ font:18px 'Cuprum', Arial, Helvetica, sans-serif; text-transform:uppercase; color:#069; border-bottom:2px solid #069; margin:10px 0 5px 0; padding:0 0 1px 0; font-weight:bold;}
+#conteudo h2{ display:block; font:16px  'Cuprum', Arial, Helvetica, sans-serif; font-weight:bold; color:#618bbe; margin:10px 0 7px 0; text-transform:uppercase;}
+#conteudo p {font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#conteudo img {padding:2px; border:1px solid #999;}
+#conteudo .titulo{padding:5px; background:#F4F4F4; width:699px; font:bold 16px 'Cuprum', Arial, Helvetica, sans-serif; color:#333; margin-bottom:15px; border:1px dashed #dddddd; display:block;}
+#conteudo .titulo p.codigo{ float:right; margin:2px 3px 0 0; text-transform:uppercase;}
+#conteudo .titulohome{padding:5px; background:#F4F4F4; width:699px; font:bold 16px 'Cuprum', Arial, Helvetica, sans-serif; color:#333; margin-bottom:15px; border:1px dashed #dddddd; display:block; float:left; text-align:center;}
+
+#conteudo .listar-noticias img{ border:0;}
+#conteudo .listar-noticias table{margin-top:8px;border:1px dashed #9B9B9B; margin-bottom:5px;}
+#conteudo .listar-noticias .tbdados{border-bottom:0; border-right:0; font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; width:709px;}
+#conteudo .listar-noticias .tbdados tr td{padding:5px; border:1px dashed #9B9B9B; border-top:0; border-left:0; background:#F3F3F3;}
+#conteudo .listar-noticias .tbdados tr:hover td{background:#DFF4FF;}
+#conteudo .listar-noticias .tbdados tr td a{font:12px Arial, Helvetica, sans-serif; color:#069; text-decoration:none;}
+#conteudo .listar-noticias .tbdados tr td a:hover{text-decoration:underline;}
+#conteudo .listar-noticias .tbdados .ses td{font-weight:bold; background:#333333; color:#FFFFFF;}
+#conteudo .listar-noticias .tbdados .ses:hover td{background:#333333;}
+#conteudo .listar-noticias .tbdados tr .nb{border-right:0;}
+
+/* ================ PAGINAS ================ */ 
+#conteudo fieldset{ border:0;}
+#conteudo form{ width:712px; padding:0; float:left;}
+#conteudo form .file{ width:695px; background:#f4f4f4; border:1px solid #D2D2D2; display:block; padding:8px 5px;}
+#conteudo form label{ display:block; margin:3px 0; float:left;}
+#conteudo form select{width:710px; background:#f4f4f4; border:1px solid #D2D2D2; display:block; padding:8px 5px;}
+#conteudo form input{width:698px; background:#f4f4f4; border:1px #D2D2D2 solid; display:block; padding:8px 5px;}
+#conteudo form textarea{ width:698px; background:#f4f4f4; border:1px #D2D2D2 solid; display:block; padding:8px 5px;}
+#conteudo form .cadastro_btn{ width:200px; margin:20px 0 15px 10px; padding: 10px; background: #618bbe; border: 1px #4b6c93 solid; color: #fff; font-size: 1em; text-decoration: none; -webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; float:left;}
+#conteudo form .cadastro_btn:hover{ background:#6e9ed8; border-color: #5c84b5; cursor:pointer;}
+#conteudo form .cadastro_btn_red{ width:200px; margin:20px 0 15px 10px; padding: 10px; background: #b55c5c; border: 1px #934b4b solid; color: #fff; font-size: 1em; text-decoration: none; -webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+#conteudo form .cadastro_btn_red:hover{ background:#c66565; border-color: #a55454; cursor:pointer;}
+#conteudo form .cadastro_btn_green{ width:200px; margin:20px 0 15px 10px; padding: 10px; background: #54a574; border: 1px #3f7c57 solid; color: #fff; font-size: 1em; text-decoration: none; -webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+#conteudo form .cadastro_btn_green:hover{ background:#5cb57e; border-color: #509e6e; cursor:pointer;}
+
+#conteudo form .cadlancamento_btn{ width:200px; display:block; float:left; background:#006699; color:#FFF; font-weight:bold; font:16px Tahoma, Arial, Helvetica, sans-serif; border:none; padding:5px 0; margin:20px 0;}
+#conteudo form .cadlancamento_btn:hover{ background:#003d59; cursor:pointer;}
+
+#conteudo #envia_img_bd fieldset{ border:0;}
+#conteudo #envia_img_bd form{ width:640px; padding:10px; float:left;}
+#conteudo #envia_img_bd form .envia_img{ width:130px; display:block; float:left; background:#006699; color:#FFF; font-weight:bold; font:16px Tahoma, Arial, Helvetica, sans-serif; border:none; padding:3px 0; margin:20px 0; cursor:pointer;}
+#conteudo #envia_img_bd form .envia_img:hover{ background:#003d59;}
+
+/* ================ CADASTRA IMAGENS ================ */
+ 
+#conteudo form .line input{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#000; padding:5px; width:726px; border:1px solid #999;}
+#conteudo form .line textarea{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#000; padding:5px; width:726px; border:1px solid #999;}
+#conteudo form .line select{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#000; padding:5px; width:auto; border:1px solid #999;}
+
+#conteudo .gblist img{ border:0;}
+#conteudo .gblist{float:left; width:670px; margin:5px 0 0 0; list-style:none; display:inline;}
+#conteudo .gblist li{float:left; width:85px; height:67px; padding:0; background:#000; margin:5px 5px; position:relative;}
+#conteudo .gblist li:hover .action{display:block;}
+#conteudo .gblist .last{float:right; margin-right:0;}
+#conteudo .gblist .action{position:absolute; left:0; top:0; padding:25px 5px 16px; background:rgba(0,0,0,0.5);}
+#conteudo .gblist .action{width:75px; text-align:center; display:none;}
+#conteudo .gblist .action a{padding:8px 5px 0; background:#000; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+#conteudo .gblist .action a:hover{background:#FF4F4F;}
+
+
+/* ================ LISTAR USUARIO ================ */ 
+#usuarios ul{ list-style:none; margin:0; padding:0;}
+#usuarios ul li{ padding:5px; margin:5px; background:#f4f4f4; border:1px solid #CCC; float:left; width:648px; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333;}
+#usuarios img{ float:left; margin-right:10px; padding:2px; border:1px solid #999;}
+#usuarios span{ float:right; width:300px; margin-top:10px;}
+#usuarios form{ width:auto; height:auto; background:transparent; float:right; margin:0; padding:0;}
+#usuarios input{ width:150px; height:28px; background:#006699; font-weight:bold; margin:0 5px; padding:3px; color:#FFF; border:0px;}
+#usuarios input:hover{ color:#069; cursor:pointer; color: #CCC}
+.usuario_editar{width:689px; font:bold 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-variant:small-caps; background:#B3E7FF; padding:10px 10px 10px 10px; border:1px dashed #66cdff; display:block; color: #333; float:left; margin-bottom:5px;}
+.usuario_editar img{ float:left; padding:5px; border:1px solid #333; background: #FFF; margin:0 10px 0 0 }
+.usuario_editar strong{ float:left;}
+#usuarios .btn{ width:130px; float: right; cursor:pointer; color:#FFF; font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold; background:#006699; margin-bottom:3px; padding:1px 0;}
+
+#conteudo .tbusuarios img{ border:0;}
+#conteudo .tbusuarios table{margin-top:8px;border:1px dashed #9B9B9B; margin-bottom:5px;}
+#conteudo .tbusuarios{border-bottom:0; border-right:0; font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; width:709px;}
+#conteudo .tbusuarios tr td{padding:5px; border:1px dashed #9B9B9B; border-top:0; border-left:0; background:#F3F3F3;}
+#conteudo .tbusuarios tr:hover td{background:#DFF4FF;}
+#conteudo .tbusuarios tr td a{font:12px Arial, Helvetica, sans-serif; color:#069; text-decoration:none;}
+#conteudo .tbusuarios tr td a:hover{text-decoration:underline;}
+#conteudo .tbusuarios .ses td{background:#f4f4f4; font-weight:bold; background:#333333; color:#FFFFFF;}
+#conteudo .tbusuarios .ses:hover td{background:#333333;}
+#conteudo .tbusuarios tr .nb{border-right:0;}
+
+/* ================ FOOTER ================ */ 
+#clear{clear:both;}
+#footer{background: #333333; width: 100%; padding: 30px 0; text-align: center; border-top: 2px solid #444; margin-top:15px;}
+#footer a, p{color:#666; font: 15px 'Cuprum', Arial, "Times New Roman", serif; text-decoration:none;}
+#footer p{ color:#FFFFFF;}
+#footer a:hover{color:#EAB252;}
+
+/* ================ EXCLUSIVO DESSE PROJETO ================ */ 
+.resumo{ width:711px; height:auto; float:left; margin-bottom:10px;}
+.resumo img{ border:0 !important;}
+.resumo ul{ width:711px; height:auto; float:left;}
+.resumo ul li{ width:226px; height:111px; float:left; background:#58338B; list-style:none; display:inline-block; -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, .2); -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, .2); box-shadow: 0 2px 6px rgba(0, 0, 0, .2); border:2px solid #3C225E;}
+.resumo ul li.valor{ margin:0 10px 0 11px; background:#30557E; border:2px solid #274669;}
+.resumo ul li.total{ background:#278B65; border:2px solid #217455;}
+.resumo ul li .icons-resumo{ width:52px; margin:14px 38% 5px 38%; height:auto;padding:0;}
+.resumo ul li p {font:16px Cuprum, Arial, Helvetica, sans-serif; text-decoration:none; color:#FFF; text-transform:uppercase; text-align:center; text-indent:0;}
+.resumo ul li p a{ text-decoration:none; font-weight:bold; color:#FFF; border:0;}
+
+.titulohomenew{padding:5px; background:#F4F4F4; width:698px; font:bold 16px 'Cuprum', Arial, Helvetica, sans-serif; color:#333; margin-top:25px; border:1px dashed #dddddd; display:block; float:left; text-align:center;}
+.tbhome{border-bottom:0; border-right:0; font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; width:100%; margin: 0 !important;}
+.tbhome tr td{padding:5px; border:1px dashed #9B9B9B; border-top:0; border-left:0; background:#F3F3F3;}
+.tbhome tr:hover td{background:#DFF4FF;}
+.tbhome tr td a{font:12px Arial, Helvetica, sans-serif; color:#069; text-decoration:none;}
+.tbhome tr td a:hover{text-decoration:underline;}
+.tbhome .ses td{font-weight:bold; background:#333333; color:#FFFFFF;}
+.tbhome .ses:hover td{background:#333333;}
+.tbhome tr .nb{border-right:0;}
+
+/* ================ envio novo imagem ================ */ 
+.envioimgnovo {float: left;}
+.envioimgnovo .inputimg{ width: 700px !important;}
+.envioimgnovo input{ background: #006699 !important; float: left !important; width: 711px !important; text-transform: uppercase; font-weight: bold; color: #FFF; border: none !important; margin: 5px 0; cursor: pointer;}
